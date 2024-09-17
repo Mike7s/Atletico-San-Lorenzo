@@ -4,8 +4,8 @@ import SponsorCards from "../components/sponsorCards";
 import { Link } from "react-router-dom";
 
 const sponsors = [
-  { id: 1, title: 'Icona Casa', img: '/IconaCasa.jpeg', link: 'https://www.iconacasa.com/?fbclid=PAZXh0bgNhZW0CMTEAAaZB5cEAuy_1lMlsFcyMO-XDXV2EBwd8i9Pz6S5EkfOF0tscXh6_F3El2P0_aem_xQgBxLUp_LGR6L9auUuDeA' },
-  { id: 2, title: 'Bolle E Bollicine', img: '/BolleEBollicine.jpeg', link:'https://www.instagram.com/bolle.e.bollicine/?locale=zh_CN',}
+  { id: 1, title: 'ICONACASA', img: '/IconaCasa.jpeg', link: 'https://www.iconacasa.com/index.php/agenzie/companyproperties/133-iconacasa-giugliano-in-campania-innamorati' },
+  { id: 2, title: 'BOLLE E BOLLICINE', img: '/BolleEBollicine.jpeg', link:'https://www.instagram.com/bolle.e.bollicine/?locale=zh_CN',}
   
 ];
 
