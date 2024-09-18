@@ -18,7 +18,7 @@ function App() {
 
         <div className="relative flex-grow flex flex-col justify-center items-center space-y-4">
           <h1
-            className={` font-urbanist font-bold text-8xl sm:p-4 transition-all duration-700 transform ${
+            className={`px-5 font-urbanist font-bold text-8xl sm:p-4 transition-all duration-700 transform ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 -translate-y-10"

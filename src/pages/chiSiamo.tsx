@@ -13,7 +13,7 @@ function Info() {
             alt="Logo San Lorenzo"
             className="w-full  pb-5 h-70"
           />
-        <h1 className="flex justify-center font-urbanist text-6xl pb-10 pt-20 font-bold sm:pl-10">
+        <h1 className="flex justify-center font-urbanist text-6xl px-5 pb-10 pt-20 font-bold sm:pl-10">
           La nostra storia 
         </h1>
 

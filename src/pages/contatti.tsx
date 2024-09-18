@@ -8,7 +8,7 @@ const Contatti: React.FC = () => {
     <>
       <NavBar />
       <div className="bg-sanlorenzoBlu font-urbanist ">
-        <h1 className="text-5xl pt-16 flex justify-center font-bold">
+        <h1 className="text-5xl pt-16 px-5 flex justify-center font-bold">
           Entra a fare parte della famiglia San Lorenzo!
         </h1>
         <div className="mt-16 ml-5 mr-5 pb-16  grid-cols-1 ">
