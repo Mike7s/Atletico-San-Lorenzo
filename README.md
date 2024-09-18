@@ -1,50 +1,26 @@
-# React + TypeScript + Vite
+# Atletico San Lorenzo - Sito Ufficiale
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Benvenuti nel repository del sito ufficiale dell'Atletico San Lorenzo, una squadra di calcio locale con una forte tradizione e legame con la comunità.
 
-Currently, two official plugins are available:
+## Link al sito
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visita il sito ufficiale](https://atletico-san-lorenzo.vercel.app/)
 
-## Expanding the ESLint configuration
+## Descrizione del progetto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Il sito è costruito utilizzando **React** con il supporto di **Tailwind CSS** per lo stile. È ospitato su [Vercel](https://vercel.com/) e utilizza **React Router** per la navigazione tra le pagine. Il sito include diverse sezioni tra cui "Chi siamo", "Squadra", "Partners" e "Contatti".
 
-- Configure the top-level `parserOptions` property like this:
+## Caratteristiche principali
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Responsive Design**: Il sito è ottimizzato per dispositivi mobili e desktop.
+- **Navigazione Dinamica**: Le sezioni del sito sono gestite da React Router.
+- **Effetti di Animazione**: Transizioni fluide e animazioni basate sullo stato del componente.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Struttura del Progetto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- `/src`: Contiene i componenti React.
+- `/public`: Contiene asset come immagini e il file `index.html`.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+
+
