@@ -62,7 +62,7 @@ function NavBar() {
         </div>
 
         {isOpen && (
-          <ul className="absolute top-full left-0 w-full bg-sanlorenzoRed text-white flex flex-col items-center space-y-4 py-4 md:hidden">
+          <ul className="absolute top-17 left-0 w-full bg-sanlorenzoRed text-white flex flex-col items-center space-y-4 py-4 md:hidden">
             <li className="font-urbanist cursor-pointer">
               <Link to="/" className="text-white" onClick={toggleMenu}>
                 Home
