@@ -11,7 +11,7 @@ function NavBar() {
 
   return (
     <>
-      <nav className="top-0 left-0 w-full bg-sanlorenzoRed flex items-center justify-between p-4 z-50">
+      <nav className="relative top-0 left-0 w-full bg-sanlorenzoRed flex items-center justify-between p-4 z-50">
        
         <div className="flex items-center space-x-4 ml-12">
           <img
@@ -62,7 +62,7 @@ function NavBar() {
         </div>
 
         {isOpen && (
-          <ul className="absolute mt-72 w-full left-0 bg-sanlorenzoRed text-white flex flex-col items-center space-y-4 py-4 md:hidden">
+          <ul className="absolute top-20 w-full left-0 bg-sanlorenzoRed text-white flex flex-col items-center space-y-4 py-4 md:hidden">
             <li className="font-urbanist cursor-pointer">
               <Link to="/" className="text-white" onClick={toggleMenu}>
                 Home
