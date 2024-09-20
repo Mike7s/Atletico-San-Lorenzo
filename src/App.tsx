@@ -16,7 +16,7 @@ function App() {
         
         <NavBar />
 
-        <div className="relative flex-grow flex flex-col justify-center items-center space-y-4">
+        <div className="relative flex-grow flex flex-col justify-center items-center space-y-4 ">
           <h1
             className={` font-urbanist font-bold text-8xl sm:p-4 transition-all duration-700 transform ${
               isVisible

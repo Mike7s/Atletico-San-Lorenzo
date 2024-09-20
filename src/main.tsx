@@ -7,6 +7,7 @@ import Info from './pages/chiSiamo';
 import Squadra from './pages/squadra';
 import Contatti from './pages/contatti';
 import Partners from './pages/partners';
+import PrivacyPolicy from './pages/privacyPolicy';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"/partners",
     element: <Partners></Partners>
+  },
+  {
+    path: '/privacy-policy', 
+    element: <PrivacyPolicy />,
   },
 ]);
 

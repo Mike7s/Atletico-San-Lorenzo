@@ -29,10 +29,17 @@ const PalmaresList: React.FC = () => {
         aria-expanded={isOpen}
         className="focus:outline-none mb-4"
       >
+        <span className="sr-only">togglePalmares</span>
         {isOpen ? (
+          <> 
+            <span className="sr-only">chiudi palmares</span>
           <FaChevronUp className="mx-auto text-2xl" />
+          </>
         ) : (
+          <>
+          <span className="sr-only">chiudi palmares</span>
           <FaChevronDown className="mx-auto text-2xl" />
+          </>
         )}
       </button>
 

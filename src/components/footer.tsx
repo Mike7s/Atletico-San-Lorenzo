@@ -1,5 +1,6 @@
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
+import PrivacyPolicy from "../pages/privacyPolicy";
 
 
 
@@ -30,6 +31,7 @@ function Footer() {
         <div className="text-white">
           <h3 className="font-urbanist font-bold text-lg">Atletico San Lorenzo</h3>
           <p>&copy; 2024 Tutti i diritti riservati</p>
+              <PrivacyPolicy/>
         </div>
       </div>
     </footer>
