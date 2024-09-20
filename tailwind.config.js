@@ -12,15 +12,15 @@ export default {
         bgColorPartner: '#e0e0e0',
         bgColorDiv:'#97a2af',
         partner:'#4258ab',
-
       },
       fontFamily: {
         urbanist: ['Urbanist', 'sans-serif'], 
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/SanLorenzo.jpeg')", 
+        
       },
     },
   },
   plugins: [],
 }
-
-
-
