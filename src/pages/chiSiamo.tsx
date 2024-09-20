@@ -29,7 +29,7 @@ function Info() {
         </h1>
 
 
-          <p className="font-urbanist  pl-5 pr-6 text-2xl">
+          <p className="font-urbanist  pl-5 pr-6 ">
             L'Atletico San Lorenzo è una società calcistica amatoriale fondata
             il 31 agosto 2015 da Valerio Cocorullo. Questa iniziativa nasce
             dall'amore per il calcio e dalla volontà di creare un ambiente in
