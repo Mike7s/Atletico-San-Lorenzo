@@ -12,15 +12,17 @@ function Info() {
       <main className="bg-sanlorenzoBlu text-white">
         <div className="pb-16">
           {!loading && <div className="animate-pulse h-screen">LOADING</div>}
-
-          <img
-            onLoad={() => setLoading(true)}
-            src="/IlPresidente.jpeg"
-            alt="Logo San Lorenzo"
-            className={`${
-              loading ? "" : "hidden"
-            } w-full h-auto min-h-[60vh] lg:min-h-screen object-cover lg:object-top `} 
-          />
+    
+          <div className="relative w-full overflow-hidden">
+  <img
+    onLoad={() => setLoading(true)}
+    src="/IlPresidente.jpeg"
+    alt="Logo San Lorenzo"
+    className={`${
+      loading ? "" : "hidden"
+    } w-full h-auto object-cover`} 
+  />
+</div>
 
           <h1 className="flex justify-center font-urbanist text-6xl px-5 pb-10 pt-20 font-bold sm:pl-10">
             La nostra storia
