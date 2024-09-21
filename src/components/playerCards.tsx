@@ -21,7 +21,7 @@ const PlayerCard: React.FC<Playerprops> = ({
       <img className="w-full h-48 object-cover" src={img} alt="LOGO" />
       <div className="text-black">
         <h1 className="font-bold text-xl mb-2"> {completeName}</h1>
-        <p>Data di nascita: {age}</p>
+        <p>Classe: {age}</p>
         <p>Ruolo: {position}</p>
       </div>
     </div>

@@ -19,7 +19,7 @@ function Info() {
             alt="Logo San Lorenzo"
             className={`${
               loading ? "" : "hidden"
-            } w-full h-full object-cover object-top lg:h-screen `} 
+            } w-full h-auto min-h-[60vh] lg:min-h-screen object-cover lg:object-top `} 
           />
 
           <h1 className="flex justify-center font-urbanist text-6xl px-5 pb-10 pt-20 font-bold sm:pl-10">

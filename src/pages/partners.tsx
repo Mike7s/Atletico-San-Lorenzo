@@ -4,9 +4,9 @@ import SponsorCards from "../components/sponsorCards";
 import { Link } from "react-router-dom";
 
 const sponsors = [
-  { id: 1, title: 'ICONACASA', img: '/IconaCasa.jpeg', link: 'https://www.iconacasa.com/index.php/agenzie/companyproperties/133-iconacasa-giugliano-in-campania-innamorati' },
-  { id: 2, title: 'BOLLE E BOLLICINE', img: '/BolleEBollicine.jpeg', link:'https://www.instagram.com/bolle.e.bollicine/?locale=zh_CN'},
-  { id: 3, title: 'TABACCHERIA DI ILLIANO FRANCESCO', img: '/Tabaccheria.jpeg', link:'https://www.instagram.com/tabaccheria_t7?igsh=MW1sb2tjbTM4NXZscA=='}
+  { id: 1, title: 'ICONACASA', img: '/IconaCasa.png', link: 'https://www.iconacasa.com/index.php/agenzie/companyproperties/133-iconacasa-giugliano-in-campania-innamorati' },
+  { id: 2, title: 'BOLLE E BOLLICINE', img: '/BolleEBollicine.png', link:'https://www.instagram.com/bolle.e.bollicine/?locale=zh_CN'},
+  { id: 3, title: 'TABACCHERIA DI ILLIANO FRANCESCO', img: '/Tabaccheria.png', link:'https://www.instagram.com/tabaccheria_t7?igsh=MW1sb2tjbTM4NXZscA=='}
   
 ];
 
