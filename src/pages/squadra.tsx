@@ -15,7 +15,7 @@ function Squadra() {
             key={player.key}
             img={player.img}
             completeName={player.completeName}
-            age={player.age}
+            age={player.classe}
             position={player.position}
           />
         ))}
