@@ -22,7 +22,7 @@ function NavBar() {
           <h1 className="text-xl font-bold">Atletico San Lorenzo</h1>
         </div>
 
-        <ul className="hidden md:flex space-x-6 text-white mr-12">
+        <ul className="hidden md:flex  space-x-6 text-white mr-12">
           <li className="font-urbanist cursor-pointer">
             <Link to="/" className="text-white">
               Home
